@@ -19,6 +19,11 @@
   }
 }
 
+header h1,
+header h2 {
+  text-align: center;
+}
+
 /* ********** Medium devices ******** */
 
 @media (max-width: 991px) {
@@ -65,7 +70,11 @@
     font-size: 0.8rem;
   }
 
-  
+  header h1,
+  header h2 {
+    text-align: center;
+  }
+
 
   /* ********** Hobbies ******** */
 
@@ -88,7 +97,7 @@
   /* **********aside******** */
 
   .AboutMeContent {
-    margin-bottom: 0.5rem;
+    margin: 0.5rem;
   }
 
   /* **********Formation******** */
@@ -107,22 +116,23 @@
 
   .recomdtTitle .col-sm-12 h2::before {
     width: 80%;
-    
+
   }
 }
 
 /* **********Extra Small devices ******** */
 
 @media (max-width: 575px) {
+
   html,
   body {
     font-size: 0.9rem;
   }
 
   /*********** header ************ */
-  header .col-md-4 .photo {
+  /* header .col-md-4 .photo {
     padding-bottom: 15rem;
-  }
+  } */
 
   /*********** Formation ************ */
 
